@@ -1,0 +1,44 @@
+feature,mean_abs_shap_value
+num__quantity,823967.4
+num__base_material_price,768345.9
+cat_low__material_Steel,330200.94
+cat_low__material_Tiles,325190.22
+cat_low__material_Wires,199791.47
+cat_low__urgency_express,62499.336
+cat_low__truck_type_mini,28028.463
+cat_low__truck_type_10-wheeler,15390.134
+cat_low__material_Wood,12184.626
+num__distance_km,3820.1562
+cat_low__material_Pipes,2328.0212
+cat_low__material_Sanitary Fittings,1952.1001
+cat_low__material_Cement,757.935
+cat_low__material_Paint,712.04944
+cat_low__material_Lime,690.7439
+cat_low__material_Aluminum Profiles,592.00464
+cat_low__material_Concrete Blocks,581.4689
+cat_low__truck_type_6-wheeler,550.27295
+cat_low__material_Electrical Switches,546.3114
+cat_low__material_Marble,454.73618
+cat_low__material_Gypsum Board,403.11566
+cat_low__material_Plywood,384.84445
+cat_high__supplier_id,358.17404
+cat_low__destination_city_Multan,352.94693
+cat_low__material_Sand,256.66357
+cat_low__material_Wall Putty,210.8742
+cat_low__material_Bricks,177.55519
+cat_low__destination_city_Gujrat,166.49728
+cat_low__material_Roofing Sheets,164.17075
+cat_low__material_Glass,152.96103
+cat_low__destination_city_Kasur,136.59488
+cat_low__destination_city_Rawalpindi,90.88345
+cat_low__material_Aggregate,85.24643
+cat_low__destination_city_Faisalabad,59.825172
+cat_low__destination_city_Sargodha,52.18214
+cat_low__material_Gravel,45.432674
+cat_low__destination_city_Gujranwala,37.926884
+cat_low__destination_city_Lahore,30.330658
+cat_low__material_Granite,25.653404
+cat_low__destination_city_Sheikhupura,15.493772
+cat_low__destination_city_Sialkot,9.07646
+cat_low__material_Circuit Breakers,0.7194525
+cat_low__urgency_standard,0.0
