@@ -1,44 +1,54 @@
 feature,mean_abs_shap_value
-num__quantity,823967.4
-num__base_material_price,768345.9
-cat_low__material_Steel,330200.94
-cat_low__material_Tiles,325190.22
-cat_low__material_Wires,199791.47
-cat_low__urgency_express,62499.336
-cat_low__truck_type_mini,28028.463
-cat_low__truck_type_10-wheeler,15390.134
-cat_low__material_Wood,12184.626
-num__distance_km,3820.1562
-cat_low__material_Pipes,2328.0212
-cat_low__material_Sanitary Fittings,1952.1001
-cat_low__material_Cement,757.935
-cat_low__material_Paint,712.04944
-cat_low__material_Lime,690.7439
-cat_low__material_Aluminum Profiles,592.00464
-cat_low__material_Concrete Blocks,581.4689
-cat_low__truck_type_6-wheeler,550.27295
-cat_low__material_Electrical Switches,546.3114
-cat_low__material_Marble,454.73618
-cat_low__material_Gypsum Board,403.11566
-cat_low__material_Plywood,384.84445
-cat_high__supplier_id,358.17404
-cat_low__destination_city_Multan,352.94693
-cat_low__material_Sand,256.66357
-cat_low__material_Wall Putty,210.8742
-cat_low__material_Bricks,177.55519
-cat_low__destination_city_Gujrat,166.49728
-cat_low__material_Roofing Sheets,164.17075
-cat_low__material_Glass,152.96103
-cat_low__destination_city_Kasur,136.59488
-cat_low__destination_city_Rawalpindi,90.88345
-cat_low__material_Aggregate,85.24643
-cat_low__destination_city_Faisalabad,59.825172
-cat_low__destination_city_Sargodha,52.18214
-cat_low__material_Gravel,45.432674
-cat_low__destination_city_Gujranwala,37.926884
-cat_low__destination_city_Lahore,30.330658
-cat_low__material_Granite,25.653404
-cat_low__destination_city_Sheikhupura,15.493772
-cat_low__destination_city_Sialkot,9.07646
-cat_low__material_Circuit Breakers,0.7194525
+num__quantity,845156.44
+num__base_material_price,767654.06
+cat_low__material_Steel,404100.84
+cat_low__material_Tiles,299466.1
+cat_low__material_Wires,217583.84
+cat_low__urgency_express,61814.53
+cat_low__truck_type_mini,35019.773
+cat_low__truck_type_10-wheeler,22299.246
+num__distance_km,22137.049
+cat_low__material_Wood,11447.84
+cat_low__material_Pipes,9644.308
+cat_low__material_Sanitary Fittings,2913.1116
+cat_low__material_Cement,1634.917
+cat_low__truck_type_6-wheeler,1355.943
+cat_low__material_Plywood,818.7517
+cat_high__supplier_id,608.49506
+cat_low__material_Electrical Switches,598.86884
+cat_low__material_Roofing Sheets,566.8367
+cat_low__material_Aluminum Profiles,531.8131
+cat_low__material_Lime,525.78766
+cat_low__material_Paint,519.01
+cat_low__material_Wall Putty,292.94565
+cat_low__material_Concrete Blocks,255.86665
+cat_low__material_Marble,254.46506
+cat_low__material_Circuit Breakers,217.17538
+cat_low__material_Bricks,206.6825
+cat_low__destination_city_Rawalpindi,125.4827
+cat_low__destination_city_Multan,105.06536
+cat_low__destination_city_Karachi,104.615944
+cat_low__destination_city_Quetta,90.580864
+cat_low__destination_city_Bahawalpur,72.392784
+cat_low__destination_city_Sheikhupura,70.209984
+cat_low__destination_city_Gujranwala,63.365204
+cat_low__destination_city_Islamabad,61.381947
+cat_low__destination_city_Faisalabad,60.703255
+cat_low__destination_city_Gujrat,56.366863
+cat_low__material_Aggregate,55.366074
+cat_low__material_Sand,53.169518
+cat_low__destination_city_Kasur,44.44225
+cat_low__destination_city_Lahore,37.598873
+cat_low__destination_city_Dera Ghazi Khan,26.937914
+cat_low__destination_city_Hyderabad,26.632824
+cat_low__destination_city_Okara,25.601357
+cat_low__destination_city_Sukkur,24.441044
+cat_low__destination_city_Peshawar,23.39237
+cat_low__material_Glass,21.901274
+cat_low__destination_city_Sargodha,17.926931
+cat_low__material_Gravel,14.078334
+cat_low__destination_city_Sialkot,13.630095
+cat_low__destination_city_Sahiwal,12.862604
+cat_low__material_Granite,7.154993
+cat_low__material_Gypsum Board,0.0
 cat_low__urgency_standard,0.0

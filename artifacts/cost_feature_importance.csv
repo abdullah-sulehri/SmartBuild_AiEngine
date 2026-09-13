@@ -1,44 +1,54 @@
 feature,importance
-cat_low__material_Tiles,0.4393079
-cat_low__material_Wires,0.34063655
-cat_low__material_Steel,0.18020214
-num__quantity,0.019301333
-num__base_material_price,0.005678787
-cat_low__material_Wood,0.005573927
-cat_low__truck_type_mini,0.0029823622
-cat_low__truck_type_10-wheeler,0.0015613955
-cat_low__material_Sanitary Fittings,0.0015214946
-cat_low__urgency_express,0.0010036712
-cat_low__material_Pipes,0.00031731883
-cat_low__material_Marble,0.00028552444
-cat_low__material_Gypsum Board,0.00027962873
-cat_low__material_Electrical Switches,0.00015167725
-cat_low__material_Cement,0.00014171885
-cat_low__material_Gravel,0.0001385337
-cat_low__material_Aluminum Profiles,0.00013340473
-cat_low__material_Lime,0.00011522849
-cat_low__material_Paint,9.0108064e-05
-cat_low__material_Plywood,8.521957e-05
-cat_low__material_Concrete Blocks,8.040379e-05
-cat_low__material_Bricks,7.5008014e-05
-cat_low__material_Roofing Sheets,7.457649e-05
-cat_low__material_Sand,6.6235465e-05
-cat_low__material_Glass,2.6187125e-05
-cat_low__material_Wall Putty,2.4727213e-05
-num__distance_km,1.7105667e-05
-cat_low__destination_city_Gujranwala,1.509284e-05
-cat_low__truck_type_6-wheeler,1.2936867e-05
-cat_low__material_Aggregate,1.1691419e-05
-cat_low__destination_city_Faisalabad,1.1684794e-05
-cat_low__destination_city_Gujrat,1.1104294e-05
-cat_low__destination_city_Multan,1.1052461e-05
-cat_high__supplier_id,1.07599435e-05
-cat_low__destination_city_Sargodha,8.535025e-06
-cat_low__destination_city_Rawalpindi,7.457946e-06
-cat_low__material_Granite,6.889891e-06
-cat_low__destination_city_Kasur,6.373184e-06
-cat_low__destination_city_Lahore,5.8692053e-06
-cat_low__destination_city_Sheikhupura,4.806201e-06
-cat_low__destination_city_Sialkot,2.9591824e-06
-cat_low__material_Circuit Breakers,5.5481763e-07
+cat_low__material_Tiles,0.34932905
+cat_low__material_Steel,0.34836158
+cat_low__material_Wires,0.26205787
+num__quantity,0.019195499
+num__base_material_price,0.0055792364
+cat_low__material_Wood,0.004700039
+cat_low__truck_type_mini,0.003111775
+cat_low__material_Pipes,0.0024548972
+cat_low__truck_type_10-wheeler,0.002163926
+cat_low__urgency_express,0.0010337743
+cat_low__material_Plywood,0.0002272333
+cat_low__material_Roofing Sheets,0.00019567634
+cat_low__material_Cement,0.00019319939
+cat_low__material_Electrical Switches,0.00014239468
+num__distance_km,0.0001207037
+cat_low__material_Aluminum Profiles,0.0001101799
+cat_low__material_Concrete Blocks,8.855743e-05
+cat_low__material_Sanitary Fittings,8.6424254e-05
+cat_low__material_Circuit Breakers,8.161009e-05
+cat_low__material_Paint,7.80325e-05
+cat_low__material_Lime,6.56406e-05
+cat_low__material_Sand,6.277877e-05
+cat_low__truck_type_6-wheeler,6.1553874e-05
+cat_low__material_Marble,4.993096e-05
+cat_low__material_Wall Putty,3.8883718e-05
+cat_low__destination_city_Rawalpindi,3.7778314e-05
+cat_low__destination_city_Multan,3.5455858e-05
+cat_low__destination_city_Kasur,3.379156e-05
+cat_low__destination_city_Sheikhupura,2.6390124e-05
+cat_high__supplier_id,2.4896464e-05
+cat_low__destination_city_Quetta,2.2295439e-05
+cat_low__destination_city_Bahawalpur,2.1501886e-05
+cat_low__material_Aggregate,2.1340857e-05
+cat_low__destination_city_Islamabad,1.8214223e-05
+cat_low__destination_city_Sargodha,1.8162049e-05
+cat_low__material_Bricks,1.7112652e-05
+cat_low__destination_city_Dera Ghazi Khan,1.544839e-05
+cat_low__destination_city_Peshawar,1.38604155e-05
+cat_low__destination_city_Karachi,1.36974995e-05
+cat_low__destination_city_Gujranwala,1.3630435e-05
+cat_low__destination_city_Hyderabad,1.1408359e-05
+cat_low__destination_city_Lahore,1.04214005e-05
+cat_low__destination_city_Gujrat,9.317324e-06
+cat_low__destination_city_Sukkur,9.146672e-06
+cat_low__destination_city_Faisalabad,7.6596525e-06
+cat_low__destination_city_Sahiwal,6.8204736e-06
+cat_low__destination_city_Okara,6.018122e-06
+cat_low__material_Gravel,5.181412e-06
+cat_low__material_Glass,5.0359745e-06
+cat_low__destination_city_Sialkot,2.5404916e-06
+cat_low__material_Granite,2.3530674e-06
+cat_low__material_Gypsum Board,0.0
 cat_low__urgency_standard,0.0
