@@ -4,16 +4,16 @@ train_models.py
 Phase 3 of the SmartBuild AI Engine.
 
 1. Cost Predictor         -- XGBoost Regressor on landed_cost (see
-                              pipeline_preprocessing.py's COST_TARGET note
-                              for why landed_cost, not freight_cost).
-                              Random split. MAE, RMSE, R^2, feature
-                              importance table, SHAP importance table.
+                            pipeline_preprocessing.py's COST_TARGET note
+                            for why landed_cost, not freight_cost).
+                            Random split. MAE, RMSE, R^2, feature
+                            importance table, SHAP importance table.
 2. Reliability Classifier -- Random Forest, class_weight='balanced'.
-                              Precision/recall/F1, confusion matrix table,
-                              SHAP importance table.
+                            Precision/recall/F1, confusion matrix table,
+                            SHAP importance table.
 3. Trend Forecaster       -- one model PER MATERIAL, chronological split,
-                              MAPE per material. Prophet first, SARIMAX
-                              fallback.
+                            MAPE per material. Prophet first, SARIMAX
+                            fallback.
 
 Artifacts are CSV tables, not charts: matplotlib bar charts / SHAP summary
 plots hit a RecursionError inside matplotlib.path.Path.__deepcopy__ on a

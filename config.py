@@ -14,6 +14,7 @@ can be pointed at one file to see every assumption the pipeline makes.
 
 from __future__ import annotations
 
+from logging import config
 import os
 from pathlib import Path
 
@@ -35,6 +36,7 @@ ARTIFACTS_DIR: Path = BASE_DIR / "artifacts"  # charts, SHAP plots, confusion ma
 
 for _dir in (DATA_DIR, MODELS_DIR, ARTIFACTS_DIR):
     os.makedirs(_dir, exist_ok=True)
+
 
 PRICE_TRENDS_CSV: Path = DATA_DIR / "price_trends_sim.csv"
 LANDED_COST_CSV: Path = DATA_DIR / "landed_cost_sim.csv"

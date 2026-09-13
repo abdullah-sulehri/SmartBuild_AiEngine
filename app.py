@@ -26,6 +26,7 @@ SmartBuild app):
 from __future__ import annotations
 
 import logging
+import os
 import time
 from datetime import datetime, timedelta
 from typing import List, Literal
@@ -42,6 +43,10 @@ import config
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
+import subprocess
+from datetime import datetime
+
+RETRAIN_SECRET = os.environ.get("RETRAIN_SECRET", "")
 
 # ---------------------------------------------------------------------------
 # 1. Load models & preprocessors ONCE at startup, not per-request
@@ -274,6 +279,36 @@ class RecommendResponse(BaseModel):
 @app.get("/health", response_model=HealthResponse)
 def health() -> HealthResponse:
     return HealthResponse(status="ok")
+
+@app.post("/api/v1/retrain")
+def retrain(request: Request):
+    auth = request.headers.get("authorization")
+    if auth != f"Bearer {RETRAIN_SECRET}":
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
+    logger.info("Retrain triggered — running preprocessing + training pipeline...")
+
+    result1 = subprocess.run(["python", "pipeline_preprocessing.py"], capture_output=True, text=True)
+    if result1.returncode != 0:
+        logger.error(f"Preprocessing failed: {result1.stderr}")
+        raise HTTPException(status_code=500, detail=f"Preprocessing failed: {result1.stderr}")
+
+    result2 = subprocess.run(["python", "train_models.py"], capture_output=True, text=True)
+    if result2.returncode != 0:
+        logger.error(f"Training failed: {result2.stderr}")
+        raise HTTPException(status_code=500, detail=f"Training failed: {result2.stderr}")
+
+    global model_cost, cost_preprocessor, model_supplier, supplier_preprocessor, model_trend_dict
+    model_cost = joblib.load(config.MODELS_DIR / "model_cost.joblib")
+    cost_preprocessor = joblib.load(config.MODELS_DIR / "preprocessor_cost.joblib")
+    model_supplier = joblib.load(config.MODELS_DIR / "model_supplier.joblib")
+    supplier_preprocessor = joblib.load(config.MODELS_DIR / "preprocessor_supplier.joblib")
+    model_trend_dict = joblib.load(config.MODELS_DIR / "model_trend.joblib")
+
+    get_cached_market_benchmark.cache_clear()  # old trend predictions are now stale, tied to the old model
+
+    logger.info("Retrain complete — new models loaded into memory.")
+    return {"status": "retrained", "timestamp": datetime.now().isoformat()}
 
 
 @app.get("/api/v1/materials")
