@@ -1,54 +1,54 @@
 feature,importance
-cat_low__material_Tiles,0.34932905
-cat_low__material_Steel,0.34836158
-cat_low__material_Wires,0.26205787
-num__quantity,0.019195499
-num__base_material_price,0.0055792364
-cat_low__material_Wood,0.004700039
-cat_low__truck_type_mini,0.003111775
-cat_low__material_Pipes,0.0024548972
-cat_low__truck_type_10-wheeler,0.002163926
-cat_low__urgency_express,0.0010337743
-cat_low__material_Plywood,0.0002272333
-cat_low__material_Roofing Sheets,0.00019567634
-cat_low__material_Cement,0.00019319939
-cat_low__material_Electrical Switches,0.00014239468
-num__distance_km,0.0001207037
-cat_low__material_Aluminum Profiles,0.0001101799
-cat_low__material_Concrete Blocks,8.855743e-05
-cat_low__material_Sanitary Fittings,8.6424254e-05
-cat_low__material_Circuit Breakers,8.161009e-05
-cat_low__material_Paint,7.80325e-05
-cat_low__material_Lime,6.56406e-05
-cat_low__material_Sand,6.277877e-05
-cat_low__truck_type_6-wheeler,6.1553874e-05
-cat_low__material_Marble,4.993096e-05
-cat_low__material_Wall Putty,3.8883718e-05
-cat_low__destination_city_Rawalpindi,3.7778314e-05
-cat_low__destination_city_Multan,3.5455858e-05
-cat_low__destination_city_Kasur,3.379156e-05
-cat_low__destination_city_Sheikhupura,2.6390124e-05
-cat_high__supplier_id,2.4896464e-05
-cat_low__destination_city_Quetta,2.2295439e-05
-cat_low__destination_city_Bahawalpur,2.1501886e-05
-cat_low__material_Aggregate,2.1340857e-05
-cat_low__destination_city_Islamabad,1.8214223e-05
-cat_low__destination_city_Sargodha,1.8162049e-05
-cat_low__material_Bricks,1.7112652e-05
-cat_low__destination_city_Dera Ghazi Khan,1.544839e-05
-cat_low__destination_city_Peshawar,1.38604155e-05
-cat_low__destination_city_Karachi,1.36974995e-05
-cat_low__destination_city_Gujranwala,1.3630435e-05
-cat_low__destination_city_Hyderabad,1.1408359e-05
-cat_low__destination_city_Lahore,1.04214005e-05
-cat_low__destination_city_Gujrat,9.317324e-06
-cat_low__destination_city_Sukkur,9.146672e-06
-cat_low__destination_city_Faisalabad,7.6596525e-06
-cat_low__destination_city_Sahiwal,6.8204736e-06
-cat_low__destination_city_Okara,6.018122e-06
-cat_low__material_Gravel,5.181412e-06
-cat_low__material_Glass,5.0359745e-06
-cat_low__destination_city_Sialkot,2.5404916e-06
-cat_low__material_Granite,2.3530674e-06
-cat_low__material_Gypsum Board,0.0
+cat_low__material_Tiles,0.60693735
+cat_low__material_Wires,0.2497704
+num__base_material_price,0.037458457
+num__quantity,0.036974963
+cat_low__material_Wood,0.035825446
+cat_low__material_Concrete Blocks,0.012178447
+cat_low__material_Cement,0.005139682
+cat_low__material_Steel,0.0036007836
+cat_low__truck_type_mini,0.0025826325
+cat_low__truck_type_10-wheeler,0.0019376323
+cat_low__material_Sanitary Fittings,0.0015652725
+cat_low__urgency_express,0.0014339571
+cat_low__material_Pipes,0.00096310786
+cat_low__material_Paint,0.0008411595
+cat_low__material_Electrical Switches,0.00060728414
+cat_low__material_Roofing Sheets,0.00030797342
+cat_low__material_Plywood,0.00030317123
+cat_low__material_Aluminum Profiles,0.00025630306
+num__distance_km,0.00023271382
+cat_low__material_Gravel,0.00011241435
+cat_low__destination_city_Sukkur,9.323015e-05
+cat_low__destination_city_Lahore,8.7516724e-05
+cat_low__material_Wall Putty,7.644722e-05
+cat_low__material_Lime,6.6804154e-05
+cat_low__material_Gypsum Board,6.542371e-05
+cat_low__material_Marble,5.8202786e-05
+cat_low__destination_city_Dera Ghazi Khan,4.544661e-05
+cat_low__material_Bricks,4.2524352e-05
+cat_low__destination_city_Karachi,3.820966e-05
+cat_low__material_Circuit Breakers,3.5517496e-05
+cat_low__material_Glass,3.2733547e-05
+cat_low__destination_city_Rawalpindi,3.083954e-05
+cat_high__supplier_id,3.0042564e-05
+cat_low__destination_city_Islamabad,2.569267e-05
+cat_low__destination_city_Bahawalpur,2.4590026e-05
+cat_low__destination_city_Sahiwal,2.234318e-05
+cat_low__truck_type_6-wheeler,2.1019723e-05
+cat_low__material_Sand,2.0407067e-05
+cat_low__destination_city_Gujrat,1.7555576e-05
+cat_low__destination_city_Sialkot,1.683015e-05
+cat_low__destination_city_Sargodha,1.6629267e-05
+cat_low__destination_city_Multan,1.6402044e-05
+cat_low__material_Granite,1.4703727e-05
+cat_low__destination_city_Peshawar,1.3825428e-05
+cat_low__destination_city_Quetta,1.0527233e-05
+cat_low__destination_city_Gujranwala,1.0091609e-05
+cat_low__destination_city_Sheikhupura,8.504077e-06
+cat_low__destination_city_Hyderabad,8.074685e-06
+cat_low__destination_city_Faisalabad,7.5726957e-06
+cat_low__destination_city_Okara,7.4469754e-06
+cat_low__destination_city_Kasur,5.738454e-06
+cat_low__material_Aggregate,0.0
 cat_low__urgency_standard,0.0
